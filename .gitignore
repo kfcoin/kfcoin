@@ -1,0 +1,34 @@
+src/*.exe
+src/Kfcoin
+src/Kfcoind
+src/test_Kfcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Kfcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Kfcoin-qt
+Kfcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+Kfcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
